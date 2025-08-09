@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Монгол Улсын Түүх | Mongolian History</title>
+    <meta name="description" content="Монгол Улсын түүхийн цуврал - Чингис хаанаас өнөөг хүртэл">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="huh_style-v1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+<body>
+    <!-- Шинэ навигацийн цэс -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="#" class="brand-link">MONGOLIA</a>
+            </div>
+            <div class="nav-menu" id="myTopnav">
+                <a href="#home" class="nav-link">Нүүр</a>
+                <a href="#timeline" class="nav-link">Цаг хугацаа</a>
+                <a href="#about" class="nav-link">Тухай</a>
+                <a href="#contact" class="nav-link">Холбоо барих</a>
+                
+                <div class="nav-buttons">
+                <button class="btn btn-outline">Нэвтрэх</button>
+                <button class="btn btn-primary">Бүртгүүлэх</button>
+                <button class="toggle-dark-btn"><i class="fa fa-moon-o"></i> Dark</button>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+            </a>
+
+        </nav>
+        <p id="demo"></p>
+    </header>
+
+    <!-- Үндсэн гол хэсэг -->
+    <main>
+        <!-- Hero хэсэг -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Монгол Улсын Түүх</h1>
+                <p class="hero-subtitle">Бөртэ чоно гуа маралаас эхтэй Их Монгол Улсын түүх оршвой</p>
+                <a href="#timeline" class="hero-btn">Нүүдэлчин өв соёлтой танилцах</a>
+            </div>
+        </section>
+
+        <!-- Гол зураг бүхий 4 баганат сетгүүл -->
+        <section id="timeline" class="main-timeline">
+            <div class="container">
+                <h2 class="section-title">Хүчирхэг Их Монгол Улс</h2>
+                <div class="image-grid">
+                    <article class="timeline-card">
+                        <div class="card-image">
+                            <img src="img/Chingis_khaan.jpg" alt="Чингис хаан">
+                        </div>
+                        <div class="card-content">
+                            <h3>Чингис хаан</h3>
+                            <p>Монголын түүхэнд хамгийн агуу хаан болсон Тэмүжингийн амьдрал, дайн байлдаан, улс байгуулах замыг дагах</p>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-card">
+                        <div class="card-image">
+                            <img src="img/harvaachid.jpg" alt="Харваачид">
+                        </div>
+                        <div class="card-content">
+                            <h3>Монгол харваачид</h3>
+                            <p>Дэлхий дахинд алдартай монгол харваачдын ур чадвар, дайны тактик техникийн онцлог</p>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-card">
+                        <div class="card-image">
+                            <img src="img/Khaan.jpg" alt="Хаан">
+                        </div>
+                        <div class="card-content">
+                            <h3>Их монгол хаад</h3>
+                            <p>Чингис хаанаас хойш Их Монгол Улсыг удирдсан агуу хаадын түүх, бүтээн байгуулалт</p>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-card">
+                        <div class="card-image">
+                            <img src="img/burte_chono_gua_maral_chatgpt.jpeg" alt="Бөртэ чоно гуа марал">
+                        </div>
+                        <div class="card-content">
+                            <h3>Бөртэ чоно гуа марал</h3>
+                            <p>Монгол үндэстний уг гарал, домог түүх, соёлын үндэс суурийн тухай ойлголт</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Текст картууд -->
+        <section class="historical-periods">
+            <div class="container">
+                <div class="period-section">
+                    <h2 class="section-title">Их Монгол Улсын байлдан дагуулалтын сүүл үе</h2>
+                    <div class="text-grid">
+                        <div class="text-card">
+                            <h3>Дэлхий дахин байлдан дагуулалт</h3>
+                            <p>Чингис хаанаас хойш монгол цэргүүдийн дэлхийн өнцөг булан руу хийсэн дайн байлдааны түүх</p>
+                        </div>
+                        <div class="text-card">
+                            <h3>Соёлын солилцоо</h3>
+                            <p>Торгоны замын дагуу өрнөсөн соёл иргэншлийн солилцоо, худалдаа эдийн засгийн хөгжил</p>
+                        </div>
+                        <div class="text-card">
+                            <h3>Улс төрийн систем</h3>
+                            <p>Их Монгол Улсын төрийн захиргаа, хууль тогтоомж, албан ёсны бүтэц зохион байгуулалт</p>
+                        </div>
+                        <div class="text-card">
+                            <h3>Шашин шүтлэг</h3>
+                            <p>Монгол улсад тэнгэр шүтлэг, буддын шашин болон бусад шашны хүлээн зөвшөөрөгдсөн байдал</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="period-section">
+                    <h2 class="section-title">Орчин цагийн Монгол Улс</h2>
+                    <h3 class="section-subtitle">Бид хэн бэ эсвэл бид хэн болох вэ</h3>
+                    <div class="text-grid">
+                        <div class="text-card">
+                            <h3>Ардчилсан шинэчлэл</h3>
+                            <p>1990 оноос хойш Монгол Улсад болсон ардчилсан өөрчлөлт, зах зээлийн эдийн засагт шилжсэн түүх</p>
+                        </div>
+                        <div class="text-card">
+                            <h3>Үндэсний эв нэгдэл</h3>
+                            <p>Орчин үеийн монголчуудын соёл, уламжлал, хэл, үндэсний шинж чанарыг хадгалан өвлүүлэх асуудал</p>
+                        </div>
+                        <div class="text-card">
+                            <h3>Эдийн засгийн хөгжил</h3>
+                            <p>Уул уурхай, мал аж ахуй, технологийн салбарын хөгжил, олон улсын хамтын ажиллагаа</p>
+                        </div>
+                        <div class="text-card">
+                            <h3>Ирээдүйн зорилго</h3>
+                            <p>Тогтвортой хөгжил, байгаль орчны хамгаалал, залуу үеийнхний боловсрол, мэргэжлийн чадавхи</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer хэсэг -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Монгол Түүхийн Сайт</h4>
+                    <p>Энэхүү вэб сайт нь Монгол Улсын түүх, соёл, уламжлалыг олон нийтэд сурталчлах зорилготой юм. Манай эрхэм зорилго бол монгол түүхийг орчин үеийн технологиор дамжуулан хүргэх явдал.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Хөгжүүлэгчийн мэдээлэл</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Бидний тухай</a></li>
+                        <li><a href="#">Холбоо барих</a></li>
+                        <li><a href="#">Нууцлалын бодлого</a></li>
+                        <li><a href="#">Ашиглах нөхцөл</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Үүсгэн байгуулагч</h4>
+                    <p>BILGUUN CORP - Монгол Улсын түүх соёлыг дижитал хэлбэрт шилжүүлэх, хадгалах чиглэлээр үйл ажиллагаа явуулдаг.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mongolian History. Бүх эрх хуулиар хамгаалагдсан.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+var x = document.getElementById("demo");
+x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+</script>
